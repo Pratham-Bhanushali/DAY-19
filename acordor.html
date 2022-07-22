@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <title>According</title>
+
+    <style>
+
+        .div{
+            background-color: aqua;
+        }
+
+        .para{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+
+    <script>
+
+        $(document).ready(function(){
+            $("#accordion").accordion();
+        })
+
+    </script>
+
+</head>
+<body>
+    
+    <div id="accordion" class="div">
+
+        <h3>First</h3>
+        <div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facilis voluptate eum aliquam eveniet culpa? Modi esse illum repellat laboriosam!</p>
+        </div>
+        <h3>second</h3>
+        <div>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas maxime minus consequuntur quos praesentium fuga distinctio cumque eius architecto qui?</p>
+        </div>
+        <h3>third</h3>
+        <div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, deserunt? Quisquam obcaecati est praesentium voluptates earum soluta ipsum reiciendis ducimus?</p>
+        </div>
+        <h3>Fourth</h3>
+        <div>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus alias veniam exercitationem cumque sit nemo aperiam dolor facere corporis. Quod.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
